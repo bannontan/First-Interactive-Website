@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100svh;
-    width: 100svw
+    width: 100%;
 }
 
 .heading {
@@ -82,4 +82,36 @@ body {
 a {
     text-decoration: none;
     color: #30475e;
+}
+
+@media (max-width:1000px) {
+    .heading {
+        font-size: 3rem;
+        
+    }
+
+    .pp {
+        border-radius: 50%;
+        width: 200px;
+    }
+    .pp-s {
+        border-radius: 50%;
+        width: 100px;
+    }
+}
+
+@media (max-width:600px) {
+    .heading {
+        font-size: 1.5rem;
+        
+    }
+
+    .pp {
+        border-radius: 50%;
+        width: 100px;
+    }
+    .pp-s {
+        border-radius: 50%;
+        width: 50px;
+    }
 }
